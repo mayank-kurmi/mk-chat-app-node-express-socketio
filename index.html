@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img height="30" src="/chat.svg" alt="logo" />
+            <h1>Chat Room</h1>
+            
+            <div class="right" id="userName"></div>
+        </div>
+        <div class="message__area">
+            <!-- <div class="incoming message">
+                <h4>Mayank</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium ipsam quibusdam voluptatibus
+                    rem, doloribus rerum earum porro. Ut, corrupti esse?</p>
+            </div>
+            -->
+        </div>
+        <div>
+            <textarea class="textArea" id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+            
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
